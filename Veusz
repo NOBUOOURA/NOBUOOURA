@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>repo/gentoo.git - Official Gentoo ebuild repository</title>
+<meta name='generator' content='cgit v1.2.3-65-gdbad'/>
+<meta name='robots' content='index,follow'/>
+<link rel='stylesheet' type='text/css' href='/cgit.css'/>
+<script type='text/javascript' src='/cgit.js'></script>
+<link rel='shortcut icon' href='//www.gentoo.org/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='https://gitweb.gentoo.org/repo/gentoo.git/atom/?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='https://anongit.gentoo.org/git/repo/gentoo.git' title='repo/gentoo.git Git repository'/>
+<link rel='vcs-git' href='git+ssh://git@git.gentoo.org/repo/gentoo.git' title='repo/gentoo.git Git repository'/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#54487a">
+<meta name="description" content="Browse the Gentoo Git repositories">
+<link href="https://assets.gentoo.org/tyrian/v2/tyrian.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<header>
+  <div class="site-title">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="logo">
+          <a href="/" title="Back to the homepage" class="site-logo">
+            <img src="https://assets.gentoo.org/tyrian/v2/site-logo.png" alt="Gentoo" srcset="https://assets.gentoo.org/tyrian/v2/site-logo.svg">
+          </a>
+          <span class="site-label">GitWeb</span>
+        </div>
+        <div class="site-title-buttons">
+          <div class="btn-group btn-group-sm">
+            <a href="https://get.gentoo.org/" role="button" class="btn get-gentoo"><span class="fa fa-fw fa-download"></span>
+              <strong>Get Gentoo!</strong></a>
+            <div class="btn-group btn-group-sm">
+              <a class="btn gentoo-org-sites dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+                <span class="fa fa-fw fa-map-o"></span> <span class="d-none d-sm-inline">gentoo.org sites</span>
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="https://www.gentoo.org/" title="Main Gentoo website"><span class="fa fa-home fa-fw"></span>
+                  gentoo.org</a>
+                <a class="dropdown-item" href="https://wiki.gentoo.org/" title="Find and contribute documentation"><span class="fa fa-file-text-o fa-fw"></span>
+                  Wiki</a>
+                <a class="dropdown-item" href="https://bugs.gentoo.org/" title="Report issues and find common issues"><span class="fa fa-bug fa-fw"></span>
+                  Bugs</a>
+                <a class="dropdown-item" href="https://forums.gentoo.org/" title="Discuss with the community"><span class="fa fa-comments-o fa-fw"></span>
+                  Forums</a>
+                <a class="dropdown-item" href="https://packages.gentoo.org/" title="Find software for your Gentoo"><span class="fa fa-hdd-o fa-fw"></span>
+                  Packages</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://planet.gentoo.org/" title="Find out what's going on in the developer community"><span class="fa fa-rss fa-fw"></span>
+                  Planet</a>
+                <a class="dropdown-item" href="https://archives.gentoo.org/" title="Read up on past discussions"><span class="fa fa-archive fa-fw"></span>
+                  Archives</a>
+                <a class="dropdown-item" href="https://sources.gentoo.org/" title="Browse our source code"><span class="fa fa-code fa-fw"></span>
+                  Sources</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://infra-status.gentoo.org/" title="Get updates on the services provided by Gentoo"><span class="fa fa-server fa-fw"></span>
+                  Infra Status</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="tyrian-navbar navbar navbar-dark navbar-expand-lg bg-primary" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-main-collapse" id="navbar-main-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/repo/gentoo.git">Gentoo Repository</a></li>
+          <li class="nav-item"><a class="nav-link" href="/repo/">Repositories</a></li>
+          <li class="nav-item"><a class="nav-link" href="/proj/">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="/dev/">Developer Overlays</a></li>
+          <li class="nav-item"><a class="nav-link" href="/user/">User Overlays</a></li>
+          <li class="nav-item"><a class="nav-link" href="/data/">Data</a></li>
+          <li class="nav-item"><a class="nav-link" href="/sites/">Websites</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container pb-5">
+  <div class="row">
+  <div class="col-md-12">
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='/cgit.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a href='/repo/gentoo.git/'>repo/gentoo.git</a></td><td class='form'><form method='get'>
+<select name='h' onchange='this.form.submit();'>
+<option value='master' selected='selected'>master</option>
+</select> <input type='submit' value='switch'/></form></td></tr>
+<tr><td class='sub'>Official Gentoo ebuild repository</td><td class='sub right'>Infrastructure team &lt;infrastructure@gentoo.org&gt;</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/repo/gentoo.git/'>summary</a><a href='/repo/gentoo.git/refs/'>refs</a><a class='active' href='/repo/gentoo.git/log/'>log</a><a href='/repo/gentoo.git/tree/'>tree</a><a href='/repo/gentoo.git/commit/'>commit</a><a href='/repo/gentoo.git/diff/'>diff</a></td><td class='form'><form class='right' method='get' action='/repo/gentoo.git/log/'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='search' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='content'><table class='list nowrap'><tr class='nohover'><th></th><th class='left'>Commit message (<a href='/repo/gentoo.git/log/?showmsg=1'>Expand</a>)</th><th class='left'>Author</th><th class='left'>Age</th><th class='left'>Files</th><th class='left'>Lines</th></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=7b219cd0257ed2f095c93cd1b564ac2924f3402f'>dev-python/pytest-httpserver: Bump to 1.0.11</a><span class='decoration'><a class='deco' href='/repo/gentoo.git/commit/?id=7b219cd0257ed2f095c93cd1b564ac2924f3402f'>HEAD</a><a class='branch-deco' href='/repo/gentoo.git/log/'>master</a></span></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-mins' data-ut='1721452159' title='2024-07-20 07:09:19 +0200'>6 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+44</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=84da7c178e0fbc8569762f716d0e717118b1a443'>dev-python/jsondiff: Bump to 2.2.0</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-mins' data-ut='1721452157' title='2024-07-20 07:09:17 +0200'>6 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+42</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=2da6aea693edec088274ae4089a5ce555014822d'>media-video/ffmpeg: Stabilize 6.1.1-r8 arm64, #936327</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721452038' title='2024-07-20 06:07:18 +0100'>8 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=11b711e40debc0ae3f4c9a7360f7daa22c370f9f'>media-video/ffmpeg: Stabilize 6.1.1-r8 arm, #936327</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721452037' title='2024-07-20 06:07:17 +0100'>8 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=e22901c6fd47fde87b97462ff4c27341467393f7'>media-video/ffmpeg: Stabilize 4.4.4-r10 arm64, #936326</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721452036' title='2024-07-20 06:07:16 +0100'>8 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=39db0ef60b6b9603438b56d69e25ecb58d6f9203'>media-video/ffmpeg: Stabilize 4.4.4-r10 arm, #936326</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721452035' title='2024-07-20 06:07:15 +0100'>8 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=b2a2324ebb6e86b47ecca117bf7adf5473f6e41f'>dev-libs/libnl: restrict tests</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721452002' title='2024-07-20 06:06:42 +0100'>9 min.</span></td><td>5</td><td><span class='deletions'>-7</span>/<span class='insertions'>+16</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=bf91d1e1e633bcbbf7f3b0ef1c0fc427304b1e1d'>dev-libs/libnl: add 3.10.0</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721451836' title='2024-07-20 06:03:56 +0100'>12 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+133</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=e89c1c87ba1e18e006d7bb41531d2dd019470588'>media-libs/libjpeg-turbo: drop 3.0.1, 3.0.2</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/7e14aa92ef62cac36ca8b5a16f7ec724?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/7e14aa92ef62cac36ca8b5a16f7ec724?s=128&amp;d=retro' /></span>Volkmar W. Pogatzki</td><td><span class='age-mins' data-ut='1721451447' title='2024-07-20 05:57:27 +0100'>18 min.</span></td><td>3</td><td><span class='deletions'>-258</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=a2ca7a06dd47e92452984cdf1a1434f226ec142f'>media-libs/libjpeg-turbo: fix "Incorrect bytecode version found"</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/7e14aa92ef62cac36ca8b5a16f7ec724?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/7e14aa92ef62cac36ca8b5a16f7ec724?s=128&amp;d=retro' /></span>Volkmar W. Pogatzki</td><td><span class='age-mins' data-ut='1721451447' title='2024-07-20 05:57:27 +0100'>18 min.</span></td><td>1</td><td><span class='deletions'>-0</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=51ffe4843d9a1497c3b3c3ce45676eb2f7b7d2e5'>dev-python/ensurepip-setuptools: Bump to 71.0.4</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-mins' data-ut='1721451065' title='2024-07-20 06:51:05 +0200'>24 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+25</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=59f1381281a81884a7a11fba11038de97bbf07f2'>dev-python/setuptools: Bump to 71.0.4</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-mins' data-ut='1721451064' title='2024-07-20 06:51:04 +0200'>24 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+125</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=8f5f11d040857d4bc51a9fea3085c48d0c1d573e'>dev-python/uv: Bump to 0.2.27</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-mins' data-ut='1721451063' title='2024-07-20 06:51:03 +0200'>24 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+110</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=c6d1b009e611ed5a438b8a8611106cbb29719aa6'>dev-java/swt: Stabilize 4.32 ppc64, #936325</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450485' title='2024-07-20 05:41:25 +0100'>34 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=1a3087b6011e6fed20bb5245b920f05a9ecbfddc'>dev-java/swt: Stabilize 4.32 amd64, #936325</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450484' title='2024-07-20 05:41:24 +0100'>34 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=c3b44d4a80c7965ff9e784a73dccdff00ab6fe5f'>dev-java/swt: Stabilize 4.32 arm64, #936325</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450483' title='2024-07-20 05:41:23 +0100'>34 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=a36e4bc94faf066b6df7cc10e31521753eec867c'>media-libs/libsdl2: Stabilize 2.28.5-r2 ppc64, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450313' title='2024-07-20 05:38:33 +0100'>37 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=8b42df857bfe4d443103d8de887306dbf89c917c'>media-libs/libsdl2: Stabilize 2.28.5-r2 sparc, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450312' title='2024-07-20 05:38:32 +0100'>37 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=636f34846e989bd524142514f3b4f46517c23aee'>media-libs/libsdl2: Stabilize 2.28.5-r2 ppc, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450311' title='2024-07-20 05:38:31 +0100'>37 min.</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=d3bd457a3f83f39e74cad29c801cf07a90959529'>app-office/gnucash: add 5.8</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450292' title='2024-07-20 05:38:12 +0100'>37 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+233</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=840c3f5c8f6e78e569753ab826f324d1172ea296'>app-doc/gnucash-docs: add 5.8</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721450292' title='2024-07-20 05:38:12 +0100'>37 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+73</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=62cf959905b7652efa9b9c20144e0ecc137dcbb0'>net-nntp/sabnzbd: 4.3.2 disable failing test</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/e185a11c2f2692805b1fc6a1ff24cc2c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/e185a11c2f2692805b1fc6a1ff24cc2c?s=128&amp;d=retro' /></span>Joe Kappus</td><td><span class='age-mins' data-ut='1721448882' title='2024-07-20 07:14:42 +0300'>61 min.</span></td><td>1</td><td><span class='deletions'>-0</span>/<span class='insertions'>+2</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=a622299dfbcc5d42b1e9a4e1418b1bbf64323cdd'>net-nntp/sabnzbd: add 4.3.2</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/e185a11c2f2692805b1fc6a1ff24cc2c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/e185a11c2f2692805b1fc6a1ff24cc2c?s=128&amp;d=retro' /></span>Joe Kappus</td><td><span class='age-mins' data-ut='1721448878' title='2024-07-20 07:14:38 +0300'>61 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+174</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=00fd18da17d96ebc907f61f5481d406b7c834cef'>media-video/ffmpeg: fix AMD AV1 vaapi regression w/ newer mesa for 6.1.x</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721448395' title='2024-07-20 05:06:35 +0100'>69 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+877</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=50569482e7b98f08980f26be076b72b9ce5b2469'>media-video/ffmpeg: fix AMD AV1 vaapi regression w/ newer mesa for 4.4.x</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721447817' title='2024-07-20 04:56:57 +0100'>79 min.</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+879</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=bc073449c565b6c5afd9709b05af6a8527d583ed'>media-video/ffmpeg: drop old patch</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721447817' title='2024-07-20 04:56:57 +0100'>79 min.</span></td><td>1</td><td><span class='deletions'>-29</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=39accf62f4db88c95a561c354cd130911b399577'>media-video/ffmpeg: drop 6.1.1-r6</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721447816' title='2024-07-20 04:56:56 +0100'>79 min.</span></td><td>1</td><td><span class='deletions'>-621</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=f38482219fd10bedd73e15841e048348ca909df2'>media-video/ffmpeg: drop 6.0-r12</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-mins' data-ut='1721447816' title='2024-07-20 04:56:56 +0100'>79 min.</span></td><td>2</td><td><span class='deletions'>-610</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=3bdf21c1019f87a61b1c10c373f9b3327255edb2'>app-shells/nushell: Add 0.95.0, renamed patch</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/8ff56897c2b2e6be14e7f88cf904c952?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/8ff56897c2b2e6be14e7f88cf904c952?s=128&amp;d=retro' /></span>Jonas Frei</td><td><span class='age-mins' data-ut='1721447575' title='2024-07-19 20:52:55 -0700'>83 min.</span></td><td>4</td><td><span class='deletions'>-1</span>/<span class='insertions'>+792</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=256520eeb924be8ab7cc04272ebab1c5ddd01a6b'>www-apps/airdcpp-webui: drop 2.11.0</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=128&amp;d=retro' /></span>Louis Sautier</td><td><span class='age-hours' data-ut='1721440602' title='2024-07-20 03:56:42 +0200'>3 hours</span></td><td>2</td><td><span class='deletions'>-23</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=18371b8fca9add7a68ee533d205720df8cbed5a1'>www-apps/airdcpp-webui: add 2.12.1</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=128&amp;d=retro' /></span>Louis Sautier</td><td><span class='age-hours' data-ut='1721440602' title='2024-07-20 03:56:42 +0200'>3 hours</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+21</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=960ca10a6b94c205cd57b77e612b369b7e2f589b'>net-p2p/airdcpp-webclient: add 2.12.2</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/d339d271c769013aa793afccf78dff57?s=128&amp;d=retro' /></span>Louis Sautier</td><td><span class='age-hours' data-ut='1721440602' title='2024-07-20 03:56:42 +0200'>3 hours</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+65</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=c078e3d548eaf5175fdcacbbda9002560c476e4f'>app-misc/lcd4linux: drop dmalloc</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/edc5fd24e2b3048842535631dab15fa3?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/edc5fd24e2b3048842535631dab15fa3?s=128&amp;d=retro' /></span>Conrad Kostecki</td><td><span class='age-hours' data-ut='1721433636' title='2024-07-20 02:00:36 +0200'>5 hours</span></td><td>2</td><td><span class='deletions'>-4</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=e0cd8e155e3bdc1b1cf15aef3e632891c9faf412'>dev-lua/luasystem: add missing build parts</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/edc5fd24e2b3048842535631dab15fa3?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/edc5fd24e2b3048842535631dab15fa3?s=128&amp;d=retro' /></span>Conrad Kostecki</td><td><span class='age-hours' data-ut='1721433636' title='2024-07-20 02:00:36 +0200'>5 hours</span></td><td>2</td><td><span class='deletions'>-1</span>/<span class='insertions'>+50</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=fb6472c40b933a91c789356402df1c9aff14a40d'>media-libs/libsdl2: Stabilize 2.28.5-r2 arm, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721433076' title='2024-07-20 00:51:16 +0100'>5 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=892996c9a9441d4818a0ebc631e5dd73684b333a'>media-libs/libsdl2: Stabilize 2.28.5-r2 x86, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721433075' title='2024-07-20 00:51:15 +0100'>5 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=ef0e7b303cff8a88c994988f5981a837a9ea38b6'>media-libs/libsdl2: Stabilize 2.28.5-r2 arm64, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721432133' title='2024-07-20 00:35:33 +0100'>6 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=bef830c723f977a0028711824110913a102e2211'>media-libs/libsdl2: Stabilize 2.28.5-r2 amd64, #936319</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721432112' title='2024-07-20 00:35:12 +0100'>6 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=21e5d9d0129ce430de12d852ed31dac3fe729830'>sys-devel/gcc: add 13.3.1_p20240719</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721430447' title='2024-07-20 00:07:27 +0100'>6 hours</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+66</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=f0af77a6dff912e0ce84cea26ce3a41b2ca40cb6'>media-sound/qsynth: Stabilize 1.0.0 ppc, #936304</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721429904' title='2024-07-19 23:58:24 +0100'>6 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=9f63e002c7e0de47436702f03aebe6a94f58b8dc'>media-libs/libsdl2: wire up libdecor support for stable series too</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/9145bef059f1ed3430994a9218bc0b2c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/9145bef059f1ed3430994a9218bc0b2c?s=128&amp;d=retro' /></span>Eli Schwartz</td><td><span class='age-hours' data-ut='1721429840' title='2024-07-19 23:57:20 +0100'>6 hours</span></td><td>1</td><td><span class='deletions'>-0</span>/<span class='insertions'>+266</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=9c19cb386709780fc23cd1141684e32efe585492'>media-libs/libsdl2: fix automagic dependency on libdecor</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/9145bef059f1ed3430994a9218bc0b2c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/9145bef059f1ed3430994a9218bc0b2c?s=128&amp;d=retro' /></span>Eli Schwartz</td><td><span class='age-hours' data-ut='1721429802' title='2024-07-19 23:56:42 +0100'>6 hours</span></td><td>1</td><td><span class='deletions'>-0</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=ca91dec6029f5507c308d3e4330fe21b1150db53'>net-libs/libwebsockets: drop 4.3.2-r1</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=128&amp;d=retro' /></span>Mike Pagano</td><td><span class='age-hours' data-ut='1721429602' title='2024-07-19 18:53:22 -0400'>6 hours</span></td><td>2</td><td><span class='deletions'>-83</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=e46dad8cac4d3866298fbcdfe46c4dafe8fcf2dd'>net-print/epson-inkjet-printer-escpr: drop 1.2.9</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=128&amp;d=retro' /></span>Mike Pagano</td><td><span class='age-hours' data-ut='1721428742' title='2024-07-19 18:39:02 -0400'>7 hours</span></td><td>1</td><td><span class='deletions'>-32</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=85dfb06e6fc930549ce62044b146ad2084edd637'>net-print/epson-inkjet-printer-escpr: drop 1.8.4</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/bdfea328a68fbcf028ac72b0d0e87a54?s=128&amp;d=retro' /></span>Mike Pagano</td><td><span class='age-hours' data-ut='1721428717' title='2024-07-19 18:38:37 -0400'>7 hours</span></td><td>2</td><td><span class='deletions'>-40</span>/<span class='insertions'>+0</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=03b954d1c10e1349ab63467814294cd07074dbcc'>media-sound/qsynth: Stabilize 1.0.0 x86, #936304</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/786f3a957bcc3a8d19160e824fc64b8e?s=128&amp;d=retro' /></span>Sam James</td><td><span class='age-hours' data-ut='1721425125' title='2024-07-19 22:38:45 +0100'>8 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=b4015a5007855a3c154b762025d925003538e471'>net-dns/pdns: stabilize 4.9.1 for amd64, x86</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=128&amp;d=retro' /></span>Sven Wegener</td><td><span class='age-hours' data-ut='1721421867' title='2024-07-19 22:44:27 +0200'>9 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=ee78d0272388f5b2f707c6fdd985c62923a3a6dc'>net-dns/pdns-recursor: stabilize 5.0.6 for amd64, x86</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=128&amp;d=retro' /></span>Sven Wegener</td><td><span class='age-hours' data-ut='1721421809' title='2024-07-19 22:43:29 +0200'>9 hours</span></td><td>1</td><td><span class='deletions'>-1</span>/<span class='insertions'>+1</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=0fc26c146321ae78daad64c45e623ad9888d6bc1'>net-dns/pdns-recursor: add 5.0.7</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/9864d7f08efc3746dd733a6b08b9556c?s=128&amp;d=retro' /></span>Sven Wegener</td><td><span class='age-hours' data-ut='1721421808' title='2024-07-19 22:43:28 +0200'>9 hours</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+133</span></td></tr>
+<tr><td class='commitgraph'>* </td><td><a href='/repo/gentoo.git/commit/?id=b4e1b0efd5c28189c9a9edfe59fc0453591d88c2'>dev-python/cfn-lint: Bump to 1.8.2</a></td><td><span class='gravatar'><img class='inline' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=13&amp;d=retro' /><img class='onhover' src='//www.gravatar.com/avatar/ff5429ef741b434eb2011692832f810e?s=128&amp;d=retro' /></span>Michał Górny</td><td><span class='age-hours' data-ut='1721418980' title='2024-07-19 21:56:20 +0200'>9 hours</span></td><td>2</td><td><span class='deletions'>-0</span>/<span class='insertions'>+71</span></td></tr>
+</table><ul class='pager'><li><a href='/repo/gentoo.git/log/?ofs=50'>[next]</a></li></ul></div> <!-- class=content -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 offset-md-2 col-md-7">
+            &nbsp;
+          </div>
+          <div class="col-12 col-md-3">
+            <h3 class="footerhead">Questions or comments?</h3>
+            Please feel free to <a href="https://www.gentoo.org/inside-gentoo/contact/">contact us</a>.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2 col-sm-3 col-md-2">
+            <ul class="footerlinks three-icons">
+              <li><a href="https://twitter.com/gentoo" title="@Gentoo on Twitter"><span class="fa fa-twitter fa-fw"></span></a></li>
+              <li><a href="https://www.facebook.com/gentoo.org" title="Gentoo on Facebook"><span class="fa fa-facebook fa-fw"></span></a></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col-10 col-sm-9 col-md-10">
+            <strong>&copy; 2001&ndash;2024 Gentoo Authors</strong><br>
+            <small>
+              Gentoo is a trademark of the Gentoo Foundation, Inc. and of Förderverein Gentoo e.V.
+              The contents of this document, unless otherwise expressly stated, are licensed under the
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC-BY-SA-4.0</a> license.
+              The <a href="https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html">Gentoo Name and Logo Usage Guidelines</a> apply.
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://assets.gentoo.org/tyrian/v2/jquery-3.3.slim.js"></script>
+    <script src="https://assets.gentoo.org/tyrian/v2/popper.min.js"></script>
+    <script src="https://assets.gentoo.org/tyrian/v2/bootstrap.min.js"></script>
+</div> <!-- id=cgit -->
+</body>
+</html>
